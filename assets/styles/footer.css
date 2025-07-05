@@ -1,0 +1,46 @@
+.rodape {
+    display: flex;
+    border-top: 1px solid var(--cor-cinza);
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 11rem;
+    gap: 35rem;
+}
+
+.rodape__texto {
+    font-size: 16px;
+    font-weight: var(--montserrat-medium);
+    color: var(--cor-cinza);
+    line-height: 1.5rem;
+}
+
+.rodape__midia {
+    width: 1.5rem;
+    margin-left: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+    .rodape {
+        padding: 2rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .rodape__texto {
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .rodape__midia {
+        width: 2rem;
+        margin-left: .5rem;
+    }   
+    
+}
+
+@media screen and (min-width: 900px) and (max-width: 1300px)  {
+    .rodape {
+        padding: 2rem;
+        gap: 20rem;
+    }
+}

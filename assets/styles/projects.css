@@ -1,0 +1,267 @@
+.container__projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 7rem;
+    position: relative;
+}
+
+.divisoria-projects {
+    margin-left: 3rem;
+}
+
+.container__image {
+    width: 50vw;
+}
+
+.projects__titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: .5rem 0;
+}
+
+.titulo__texto {
+    font-size: 15px;
+    font-weight: var(--montserrat-medium);
+}
+
+.titulo__menor {
+    font-size: 45px;
+    font-weight: var(--montserrat-extraBold);
+    color: var(--cor-branco);
+}
+
+.titulo__maior {
+    font-size: 65px;
+    color: var(--cor-amarelo);
+}
+
+.projects__instructions {
+    position: absolute;
+    display: flex;
+    bottom: 10rem;
+    right: -7rem;
+}
+
+.projects__arrow {
+    width: 3rem;
+    transform: rotate(-90deg);
+}
+
+.projects__rabisco {
+    font-family: var(--fonte-rabisco);
+    color: var(--cor-branco);
+    font-size: 25px;
+    margin: .5rem 0 0 1rem;
+}
+
+.container__projects-cards {
+    margin-bottom: 2.5rem;
+}
+
+.title__projects {
+    padding: 3rem 0;
+}
+
+.projects__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+    gap: 4rem;
+}
+
+.projects__card {
+    width: 21rem;
+    background-color: var(--cor-cinza);
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.texto__categoria {
+    font-weight: var(--montserrat-medium);
+    letter-spacing: .2em;
+    font-size: 11px;
+    padding: 1rem 0 0 1.5rem;
+    color: var(--cor-amarelo);
+}
+
+.texto__titulo {
+    font-weight: var(--montserrat-semiBold);
+    padding: .7rem 0 .7rem 1.5rem;
+    font-size: 22px;
+}
+
+.texto__descricao {
+    font-size: 14px;
+    padding: 0 1.5rem;
+    line-height: 1.2rem;
+}
+
+.card__botoes {
+    display: flex;
+    margin-top: 1.2rem;
+    margin-bottom: 1.5rem;
+    gap: .6rem;
+}
+
+.botoes__git {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-amarelo);
+    padding: .5rem;
+    border-radius: 10px;
+    margin-left: 1.5rem;
+    width: 6.5rem;
+}
+
+.git__icon {
+    width: 1.5rem;
+}
+
+.git__texto {
+    font-weight: var(--montserrat-medium);
+    font-size: 17px;
+    margin-left: .5rem;
+    color: var(--cor-branco);
+}
+
+.botoes__git:hover {
+    background-color: var(--cor-fundo);
+    transition: .5s ease;
+}
+
+.botoes__live {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-branco);
+    padding: .5rem;
+    border-radius: 10px;
+    width: 1.7rem;
+}
+
+.live__icon {
+    width: 1.5rem;
+}
+
+.botoes__live:hover {
+    background-color: var(--cor-fundo);
+    transition: .5s ease;
+}
+
+.card__image {
+    height: 12rem;
+    background-position: center;
+    background-size: cover;
+}
+
+.pokedex {
+    background-image: url(../imgs/PokedexBG.jpg);
+}
+
+.academy {
+    background-image: url(../imgs/FitBG.jpg);
+}
+
+.listaCompras {
+    background-image: url(../imgs/ListaBG.jpg);
+}
+
+.QRcode {
+    background-image: url(../imgs/QRcodeBG.jpg);
+}
+
+.login {
+    background-image: url(../imgs/LoginBG.jpg);
+}
+
+.galeria {
+    background-image: url(../imgs/GaleriaBG.jpeg);
+}
+
+
+@media screen and (max-width: 900px) {
+    .cabecalho {
+        display: none;
+    }
+
+    .container__projects {
+        padding: 6rem 2rem 0 2rem;
+        height: 100%;
+        margin: 0;
+    }
+
+    .projects__titulo {
+        padding: 0;
+    }
+    
+    .titulo__texto {
+        font-size: 22px;
+        font-weight: var(--montserrat-medium);
+    }
+
+    .titulo__menor {
+        font-size: 35px;
+    }
+    
+    .titulo__maior {
+        font-size: 40px;
+    }
+
+    .projects__instructions {
+        display: none;
+    }
+
+    .container__image {
+        width: 80vw;
+        margin: 1rem 0;
+    }
+
+    .projects__cards {
+        margin-bottom: 0;
+        gap: 0;
+    }
+
+    .projects__card {
+        margin-bottom: 2rem;
+    }
+
+    .container__projects-principais {
+        padding: 5rem 0 0 0;
+    }
+    
+    .container__projects-extras {
+        padding: 5rem 0 0 0;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .container__projects {
+        padding: 6rem 1rem 0 1rem;
+        height: 100%;
+        margin: 0;
+    }
+
+    .titulo__menor {
+        font-size: 27px;
+    }
+    
+    .titulo__maior {
+        font-size: 30px;
+    }
+
+    .titulo__texto {
+        font-size: 17px;
+    }
+
+    .projects__card {
+        width: 15rem;
+        background-color: var(--cor-cinza);
+        border-radius: 30px;
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos Lucas</title>
+    <link rel="icon" type="image/x-icon" href="../imgs/Favicon.ico">
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav>
+            <ul class="menu__lista">
+                <a class="button__projetcs" href="https://lucasbalbueno.github.io/My-Portfolio/"><span>home</span></a>
+                <div class="lista__divisoria divisoria-projects"></div>
+                <a class="lista__link" href="#principais">Principais</a>
+                <li><a class="lista__link" href="#extras">Extras</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <header class="cabecalho__menu-hamburguer">
+        <button id="btnHamburguer" class="btn__menu-hamburguer"></button>
+        <a class="button__projects-hamburguer" href="https://lucasbalbueno.github.io/My-Portfolio/">home</a>
+        <nav>
+            <ul class="menu__lista-hamburguer">
+                <li class="lista__item-hamburguer"><a class="lista__link-hamburguer" href="https://lucasbalbueno.github.io/My-Portfolio/">home</a></li>
+                <li class="lista__item-hamburguer"><a class="lista__link-hamburguer" href="#principais">principais</a></li>
+                <li class="lista__item-hamburguer"><a class="lista__link-hamburguer" href="#extras">extras</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container__projects">
+            <img class="container__image hiddenRight hiddenDownResponsive" src="../imgs/tenologyTeto.png">
+            <div class="projects__titulo hiddenDown hiddenDownResponsive">
+                <p class="titulo__texto">Desenvolvidos</p>
+                <h2 class="titulo__menor">PENSANDO EM</h2>
+                <h1 class="titulo__menor">CADA <strong class="titulo__maior">DETALHE</strong></h1>
+            </div>
+            <img class="container__image hiddenLeft hiddenDownResponsive" src="../imgs/tenologyChao.png">
+            <div class="projects__instructions hiddenDown">
+                <img class="projects__arrow" src="../imgs/SetaBranca.png">
+                <p class="projects__rabisco">Role para baixo</p>
+            </div>
+        </div>
+
+        <div class="container__projects-cards">
+            <div id="principais" class="container__projects-principais">
+                <div class="container__titulo title__projects hiddenLeft hiddenDownResponsive">
+                    <h1 class="titulo__fundo">projetos</h1>
+                    <h2 class="titulo__frente"><strong class="titulo__frente-destaque">Principais</strong></h2>
+                </div>
+
+                <div class="projects__cards">
+                    <div class="projects__card hiddenDown3 hiddenDownResponsive">
+                        <div class="card__image pokedex"></div>
+                        <div>
+                            <p class="texto__categoria">JavaScript / API</p>
+                            <h1 class="texto__titulo">Pokedex</h1>
+                            <p class="texto__descricao">Descubra o fascinante mundo dos Pokémons de uma maneira totalmente inovadora com a Pokédex! Alimentada por uma API constantemente atualizada, você sempre estará por dentro das últimas descobertas. </p>
+                        </div>
+                        <div class="card__botoes">
+                            <a class="botoes__git" href="https://github.com/LucasBalbueno/pokedex" target="_blank">
+                                <img class="git__icon" src="../imgs/icons/GitHub.svg">
+                                <p class="git__texto">GitHub</p>
+                            </a>
+                            <a class="botoes__live" href="https://lucasbalbueno.github.io/pokedex/" target="_blank">
+                                <img class="live__icon" src="../imgs/icons/EyeFill.svg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="projects__card hiddenDown2 hiddenDownResponsive">
+                        <div class="card__image academy"></div>
+                        <div>
+                            <p class="texto__categoria">HTML / CSS Animations</p>
+                            <h1 class="texto__titulo">Gymso Fitness</h1>
+                            <p class="texto__descricao">Uma plataforma que oferece informações sobre os serviços da academia de forma dinâmica, moderna e funcional, com animações interativas e design responsivo, incentivando a interação dos usuários.</p>
+                        </div>
+                        <div class="card__botoes">
+                            <a class="botoes__git" href="https://github.com/LucasBalbueno/Template-Gymso-Fitness" target="_blank">
+                                <img class="git__icon" src="../imgs/icons/GitHub.svg">
+                                <p class="git__texto">GitHub</p>
+                            </a>
+                            <a class="botoes__live" href="https://lucasbalbueno.github.io/Template-Gymso-Fitness/" target="_blank">
+                                <img class="live__icon" src="../imgs/icons/EyeFill.svg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="projects__card hiddenDown hiddenDownResponsive">
+                        <div class="card__image listaCompras"></div>
+                        <div>
+                            <p class="texto__categoria">JavaScript / LocalStorage</p>
+                            <h1 class="texto__titulo">Lista de Compras</h1>
+                            <p class="texto__descricao">A lista de compras é uma ferramenta digital conveniente desenvolvida para facilitar o processo de compras no mercado. Os usuários podem adicionar ou excluir itens da sua lista de compras em tempo real.</p>
+                        </div>
+                        <div class="card__botoes">
+                            <a class="botoes__git" href="https://github.com/LucasBalbueno/Lista-de-Compras" target="_blank">
+                                <img class="git__icon" src="../imgs/icons/GitHub.svg">
+                                <p class="git__texto">GitHub</p>
+                            </a>
+                            <a class="botoes__live" href="https://lista-de-compras-psi-lilac.vercel.app/" target="_blank">
+                                <img class="live__icon" src="../imgs/icons/EyeFill.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="extras" class="container__projects-extras">
+                <div class="container__titulo title__projects hiddenLeft hiddenDownResponsive">
+                    <h1 class="titulo__fundo">projetos</h1>
+                    <h2 class="titulo__frente"><strong class="titulo__frente-destaque">Extras</strong></h2>
+                </div>
+
+                <div class="projects__cards">
+                    <div class="projects__card hiddenUp3 hiddenDownResponsive">
+                        <div class="card__image QRcode"></div>
+                        <div>
+                            <p class="texto__categoria">JavaScript / API</p>
+                            <h1 class="texto__titulo">QR Code Generator</h1>
+                            <p class="texto__descricao">O gerador de QR Code é uma ferramenta online e prática que permite ao usuário inserir informações como URLs, textos ou dados específicos, gerando um código QR correspondente de forma fácil e sem limitações.</p>
+                        </div>
+                        <div class="card__botoes">
+                            <a class="botoes__git" href="https://github.com/LucasBalbueno/QRCode-generator" target="_blank">
+                                <img class="git__icon" src="../imgs/icons/GitHub.svg">
+                                <p class="git__texto">GitHub</p>
+                            </a>
+                            <a class="botoes__live" href="https://lucasbalbueno.github.io/QRCode-generator/" target="_blank">
+                                <img class="live__icon" src="../imgs/icons/EyeFill.svg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="projects__card hiddenUp2 hiddenDownResponsive">
+                        <div class="card__image login"></div>
+                        <div>
+                            <p class="texto__categoria">HTML / CSS</p>
+                            <h1 class="texto__titulo">Ecommerce Login</h1>
+                            <p class="texto__descricao">Tela de login para um Ecommerce, a porta de entrada personalizada para os usuários acessarem a plataforma. Desenvolvida com foco na usabilidade e facilidade ao credenciar informações pessoais.</p>
+                        </div>
+                        <div class="card__botoes">
+                            <a class="botoes__git" href="https://github.com/LucasBalbueno/Ecommerce-login-website" target="_blank">
+                                <img class="git__icon" src="../imgs/icons/GitHub.svg">
+                                <p class="git__texto">GitHub</p>
+                            </a>
+                            <a class="botoes__live" href="https://lucasbalbueno.github.io/Ecommerce-login-website/" target="_blank">
+                                <img class="live__icon" src="../imgs/icons/EyeFill.svg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="projects__card hiddenUp hiddenDownResponsive">
+                        <div class="card__image galeria"></div>
+                        <div>
+                            <p class="texto__categoria">HTML / CSS</p>
+                            <h1 class="texto__titulo">Galeria de Imagens</h1>
+                            <p class="texto__descricao">A galeria de imagens possui uma funcionalidade interativa de expansão ao passar o mouse, proporcionando uma experiência visual dinâmica. Ao deslocar o cursor sobre as miniaturas, a imagem se expande por completo.</p>
+                        </div>
+                        <div class="card__botoes">
+                            <a class="botoes__git" href="https://github.com/LucasBalbueno/Galeria-de-Imagens" target="_blank">
+                                <img class="git__icon" src="../imgs/icons/GitHub.svg">
+                                <p class="git__texto">GitHub</p>
+                            </a>
+                            <a class="botoes__live" href="https://lucasbalbueno.github.io/Galeria-de-Imagens/" target="_blank">
+                                <img class="live__icon" src="../imgs/icons/EyeFill.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape__textos">
+            <p class="rodape__texto">Desenvolvido por Lucas Balbueno Vicêncio</p>
+            <a href="mailto:balbuenolucas04@gmail.com">
+                <p class="rodape__texto">balbuenolucas04@gmail.com</p>
+            </a>
+        </div>
+        <div class="rodape__midias">
+            <a href="https://www.linkedin.com/in/lucasbalbuenovicencio/" target="_blank">
+                <img class="rodape__midia" src="../imgs/icons/Linkedin.svg">
+            </a>
+            <a href="https://github.com/LucasBalbueno" target="_blank">
+                <img class="rodape__midia" src="..//imgs/icons/GitHub.svg">
+            </a>
+        </div>
+    </footer>
+
+    <script type="module" src="../js/index.js"></script>
+</body>
+
+</html>

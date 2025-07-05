@@ -1,0 +1,45 @@
+.textos__IamText{
+    overflow: hidden;
+    margin: 0 0 .5rem 3.5rem;
+}
+
+.textos__IamText .text{
+    font-family: var(--fonte-krona);
+    font-size: 18px;
+    position: relative;
+    color: var(--cor-amarelo);
+}
+.textos__IamText .text.first-text{
+    color: var(--cor-branco);
+}
+.text.sec-text:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--cor-fundo);
+    border-left: 2px solid var(--cor-amarelo);
+    animation: animate 4s steps(12) infinite;
+}
+@keyframes animate{
+    40%, 60%{
+        left: calc(100% + 4px);
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .textos__IamText {
+        margin: 0 0 .5rem 2.5rem;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .textos__IamText{
+        margin: 0 0 .5rem 1rem;
+    }
+}
